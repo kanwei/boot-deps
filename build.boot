@@ -9,9 +9,9 @@
 (bootlaces! +version+)
 
 (task-options!
-  pom {:project     'boot-deps
+  pom {:project     'kanwei/boot-deps
        :version     +version+
        :description "Boot task to find outdated dependencies."
-       :url         "https://github.com/martinklepsch/boot-deps"
+       :url         "https://github.com/kanwei/boot-deps"
        :scm         {:url "https://github.com/martinklepsch/boot-deps"}
        :license     {"EPL" "http://www.eclipse.org/legal/epl-v10.html"}})
